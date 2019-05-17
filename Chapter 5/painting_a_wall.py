@@ -22,7 +22,7 @@ print('Paint needed: %.2f gallons' % paint_needed)
 num_cans = int(math.ceil(paint_needed))
 print('Cans needed: %d can(s)' % num_cans)
 
-# FIXME (4): Calculate and output the total cost of paint can needed depending on color
+# Calculate and output the total cost of paint can needed depending on color
 my_color = str(input('\nChoose a color to paint the wall:\n'))
 color_cost = paint_colors[my_color] * num_cans
 print('Cost of purchasing %s paint: $%d' % (my_color, color_cost))
